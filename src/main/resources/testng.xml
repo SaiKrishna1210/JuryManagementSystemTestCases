@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="JMS Application Automation Test Suite">
+
+<test name="JMS App Test Cases">
+		<classes>
+		
+			<class name="com.jms.qa.testcases.JurorProfileTest"></class>
+			<class name="com.jms.qa.testcases.LoginPageTest"></class>
+			<class name="com.jms.qa.testcases.HomePageTest"></class>
+			
+
+		</classes>
+	</test>
+</suite>
