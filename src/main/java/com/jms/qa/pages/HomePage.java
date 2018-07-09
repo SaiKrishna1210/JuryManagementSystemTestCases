@@ -59,10 +59,10 @@ public class HomePage extends TestBase {
 		
 	}
 	
-	public EventsPage searchEvent() throws InterruptedException
+	public EventsPage searchEvent() throws Exception
 	{
-		eventSearchLabel.sendKeys("JMS");
-		Thread.sleep(1000);
+		eventSearchLabel.sendKeys("CreateAuto Event2");
+		Thread.sleep(3000);
 		searchEvent.click();
 		Thread.sleep(3000);
 		return new EventsPage();
