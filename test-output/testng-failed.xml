@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.jms.qa.testcases.EventsPagetest">
+      <class name="com.jms.qa.testcases.EventsDetailsTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
-          <include name="viewEventFlowTest"/>
+          <include name="tearDown"/>
+          <include name="moveJurorsToPanelTest"/>
         </methods>
-      </class> <!-- com.jms.qa.testcases.EventsPagetest -->
+      </class> <!-- com.jms.qa.testcases.EventsDetailsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

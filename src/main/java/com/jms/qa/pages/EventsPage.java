@@ -8,13 +8,7 @@ import com.jms.qa.base.TestBase;
 
 public class EventsPage extends TestBase{
 	
-	
-//	@FindBy(xpath="//td[text()='October 29 2025 , 8:00 AM- 10:00 AM']"
-//			+ "//following-sibling::td//following-sibling::button[@title='View Event']")
-//	WebElement viewEventbtn;
-	
-//	@FindBy(xpath="//button[@class='btn btn-info']")
-//	WebElement viewEventbtn;
+
 	
 	@FindBy(xpath="//button[@title='View Event']")
 	WebElement viewEventbtn;
@@ -31,7 +25,7 @@ public class EventsPage extends TestBase{
 	@FindBy(xpath="//button[text()='Multiple Update Status ']")
 	WebElement mutliUpdateStatus;
 	
-	@FindBy(xpath="//td[text()='JENNIFER        WALLACE                       ']"
+	@FindBy(xpath="//td[text()='MARK            PONTE                         ']"
 			+ "//following-sibling::td//following-sibling::td"
 			+ "//following-sibling::td//following-sibling::td"
 			+ "//following-sibling::td//following-sibling::td"

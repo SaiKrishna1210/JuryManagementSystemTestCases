@@ -1,9 +1,11 @@
 package com.jms.qa.pages;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.Select;
 
 import com.jms.qa.base.TestBase;
 
@@ -30,6 +32,9 @@ public class HomePage extends TestBase {
 	
 	@FindBy(xpath="//p[@title='Calendar']")
 	WebElement eventCalendar;
+	
+	@FindBy(xpath="//button[@title='View Event']")
+	WebElement viewEventbtn;
 	
 	
 	public HomePage()
@@ -61,7 +66,7 @@ public class HomePage extends TestBase {
 	
 	public EventsPage searchEvent() throws Exception
 	{
-		eventSearchLabel.sendKeys("CreateAuto Event2");
+		eventSearchLabel.sendKeys("CreateAutoEvent5");
 		Thread.sleep(3000);
 		searchEvent.click();
 		Thread.sleep(3000);
@@ -79,7 +84,13 @@ public class HomePage extends TestBase {
 		return new CalendarPage();
 	}
 	
+	public EventDetails clickOnViewEvent() throws Exception
+	{
+		viewEventbtn.click();
+		Thread.sleep(3000);
+		return new EventDetails();
+	}
 	
-	
+ 
 
 }

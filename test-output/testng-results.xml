@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="88549" started-at="2018-07-06T10:45:24Z" finished-at="2018-07-06T10:46:52Z">
+  <suite name="Default suite" duration-ms="195544" started-at="2018-07-23T09:47:31Z" finished-at="2018-07-23T09:50:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="88549" started-at="2018-07-06T10:45:24Z" finished-at="2018-07-06T10:46:52Z">
-      <class name="com.jms.qa.testcases.EventsPagetest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jms.qa.testcases.EventsPagetest@4dfa3a9d]" name="setUp" is-config="true" duration-ms="46908" started-at="2018-07-06T10:45:24Z" finished-at="2018-07-06T10:46:10Z">
+    <test name="Default test" duration-ms="195544" started-at="2018-07-23T09:47:31Z" finished-at="2018-07-23T09:50:46Z">
+      <class name="com.jms.qa.testcases.EventsDetailsTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.jms.qa.testcases.EventsDetailsTest@204f30ec]" name="setUp" is-config="true" duration-ms="39291" started-at="2018-07-23T09:47:31Z" finished-at="2018-07-23T09:48:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="viewEventFlowTest()[pri:1, instance:com.jms.qa.testcases.EventsPagetest@4dfa3a9d]" name="viewEventFlowTest" duration-ms="40817" started-at="2018-07-06T10:46:10Z" finished-at="2018-07-06T10:46:51Z">
+        <test-method status="PASS" signature="moveJurorsToPanelTest()[pri:1, instance:com.jms.qa.testcases.EventsDetailsTest@204f30ec]" name="moveJurorsToPanelTest" duration-ms="155309" started-at="2018-07-23T09:48:10Z" finished-at="2018-07-23T09:50:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- viewEventFlowTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jms.qa.testcases.EventsPagetest@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="808" started-at="2018-07-06T10:46:51Z" finished-at="2018-07-06T10:46:52Z">
+        </test-method> <!-- moveJurorsToPanelTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.jms.qa.testcases.EventsDetailsTest@204f30ec]" name="tearDown" is-config="true" duration-ms="909" started-at="2018-07-23T09:50:45Z" finished-at="2018-07-23T09:50:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.jms.qa.testcases.EventsPagetest -->
+      </class> <!-- com.jms.qa.testcases.EventsDetailsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
